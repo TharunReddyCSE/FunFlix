@@ -1,0 +1,26 @@
+body {
+    font-size: 16px;
+}
+
+#mainh1 {
+    font-size: 3rem;
+}
+
+.navbar-brand {
+    color: rgba(255, 0, 0, 0.911);
+}
+
+#btn1 {
+    background-color: rgba(255, 0, 0, 0.911);
+}
+
+.parent {                   
+    display: flexbox;
+    place-items: center;
+    align-items: center;
+}
+
+.center-block {
+    display: grid;
+    margin: auto;
+}
