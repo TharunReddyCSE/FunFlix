@@ -8,7 +8,7 @@ The Online movie streaming platform is a web-based system that is made using HTM
 
 **Note:- I have used the Xampp server for the project. You will find the SQL file in the assets folder. Make sure that you have added the folder properly. for reference check the below image**
 
-![image](https://github.com/TharunReddyCSE/FunFlix/assets/52944771/d6e8f450-1246-4866-a5be-05dc729dc324)
+![image](https://github.com/TharunReddyCSE/FunFlix/assets/52944771/d8014070-772d-431c-96de-38b19676e374)
 
 
 **Follow the below link to download the assets folder and the admin folder which are both critical for the project. Both the folders are large[1.3 GB]**
