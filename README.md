@@ -14,3 +14,11 @@ The Online movie streaming platform is a web-based system that is made using HTM
 **Follow the below link to download the assets folder and the admin folder which are both critical for the project. Both the folders are large[1.3 GB]**
 
 [Link for downloading the assets and admin folder](https://mega.nz/fm/EmsiXYgK)
+
+---
+
+*If you want extra assets other than the ones in the assets folder. Follow the given links respectively*
+
+[For Movie Posters](https://theposterdb.com/)
+
+[For Big Carousal Images](https://wall.alphacoders.com/)
