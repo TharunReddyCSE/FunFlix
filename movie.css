@@ -1,0 +1,36 @@
+.contain {
+    position: relative;
+}
+
+.bottom-left {
+    position: absolute;
+    bottom: 70px;
+    left: 10px;
+}
+
+.navbar-brand {
+    color: rgba(255, 0, 0, 0.911);
+}
+
+#btn1 {
+    background-color: rgba(255, 0, 0, 0.911);
+}
+
+#img_details {
+    margin-left: 30px;
+}
+
+.lh-base {
+    width: 40rem;
+}
+
+.checked {
+    color: rgb(255, 196, 0);
+}
+
+.fa-circle {
+   font-size: 6px;
+    color: aqua;
+    top: -2px;
+    position: relative;
+}

@@ -1,0 +1,31 @@
+.navbar-brand {
+    color: rgba(255, 0, 0, 0.911);
+}
+
+#btn1 {
+    background-color: rgba(255, 0, 0, 0.911);
+}
+
+.top-nav-collapse {
+    background-color: #000000 !important;
+}
+
+@media (max-width: 991px) {
+    .navbar:not(.top-nav-collapse) {
+        background: #000000 !important;
+    }
+}
+
+.text-block {
+    position: absolute;
+    bottom: 100px;
+    color: white;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+#zimg:hover {
+    transform: scale(1.07);
+    overflow: hidden;
+    transition: transform 300ms;
+}

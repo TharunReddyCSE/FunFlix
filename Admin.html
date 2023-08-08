@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin login</title>
+    <link rel="shortcut icon" type="image/jpg" href="assests/img/favicon/clapperboard.png" />
+    <!-- Font Awesome -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet" />
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap" rel="stylesheet" />
+    <!-- MDB -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.0.1/mdb.min.css" rel="stylesheet" />
+
+
+    <!-- MDB -->
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.0.1/mdb.min.js"></script>
+
+    <link rel="stylesheet" href="index.css">
+
+    <script>
+        (function () {
+            'use strict';
+            window.addEventListener('load', function () {
+                // Fetch all the forms we want to apply custom Bootstrap validation styles to
+                var forms = document.getElementsByClassName('needs-validation');
+                // Loop over them and prevent submission
+                var validation = Array.prototype.filter.call(forms, function (form) {
+                    form.addEventListener('submit', function (event) {
+                        if (form.checkValidity() === false) {
+                            event.preventDefault();
+                            event.stopPropagation();
+                        }
+                        form.classList.add('was-validated');
+                    }, false);
+                });
+            }, false);
+        })();
+    </script>
+
+</head>
+
+<body class="bg-white">
+    <header>
+        <!-- Navbar -->
+        <nav class="navbar navbar-expand-lg shadow shadow-0 border border-bottom">
+            <!-- Container wrapper -->
+            <div class="container">
+                <!-- Navbar brand -->
+                <a class="navbar-brand fs-2 fw-bold" href="index.html">FUNFLIX</a>
+            </div>
+            <!-- Container wrapper -->
+        </nav>
+        <!-- Navbar -->
+    </header>
+
+    <!-- form starts -->
+    <div class="position-absolute top-50 start-50 translate-middle parent mt-5" style="min-width: 30em;top: 10px;">
+        <h1 class="text-dark">Admin Login</h1>
+        <form action="adminlogin.php" method="POST" enctype="multipart/form-data" class="needs-validation" novalidate>
+            <div class="form-floating mb-3">
+                <input type="text" class="form-control" name="adname" id="floatingName" title="Enter your Name"
+                    placeholder="Admin name" minlength="3" maxlength="30" autocomplete="off" style="text-transform: lowercase;"
+                    pattern="[^0-9][a-zA-Z]+$" required>
+                <label for="floatingName">Admin Name</label>
+            </div>
+            <div class="form-floating mb-3">
+                <input type="password" class="form-control" name="upsw" id="floatingPassword" placeholder="Password"
+                    title="Must contain at least ONE NUMBER and one UPPERCASE and LOWERCASE letter, and at least 6 or 12 characters"
+                    pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{6,}" minlength="6" maxlength="12" required>
+                <label for="floatingPassword">Password</label>
+            </div>
+            <button type="submit" class="btn btn-lg text-white btn-block fs-6" id="btn1">Sign In</button>
+
+        </form>
+    </div>
+
+
+
+</body>
+
+</html>
